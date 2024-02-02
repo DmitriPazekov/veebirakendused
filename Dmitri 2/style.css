@@ -1,0 +1,56 @@
+/*style.css*/
+header{
+	color: purple; /* цвет текста*/
+	background-color: silver; /*цвет фона*/
+	font-family: Arial; /*тип шрифта*/
+	letter-spacing: 0.1cm; /*растояние между букв*/
+	text-align: center; /*местоположение заглавия*/	
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	color: purple;
+	background-color: silver;
+	width: 100%;
+	text-align: center;
+}
+main section{
+	border-top: 6pt solid purple; /*dotted dashed*/
+	border-bottom: 6pt solid purple;
+	border-radius: 50px;
+	padding: 2%;
+	width: 30%;
+}
+/*h2 mis on section sees*/
+main section h2{
+	color: purple; 
+	background-color: silver; 
+	font-family: Arial; 
+	letter-spacing: 0.1cm; 
+	text-align: center; 
+	
+}
+/*navigeerimismenüü w3shools lehed*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: purple;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: violet;
+}
